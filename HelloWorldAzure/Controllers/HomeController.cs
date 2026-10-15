@@ -18,7 +18,14 @@ namespace HelloWorldAzure.Controllers
         {
             return View();
         }
-
+        public IActionResult Tv()
+        {
+            return View();
+        }
+        public IActionResult WMachne()
+        {
+            return View();
+        }
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
