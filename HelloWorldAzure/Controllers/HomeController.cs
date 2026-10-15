@@ -18,11 +18,11 @@ namespace HelloWorldAzure.Controllers
         {
             return View();
         }
-        public IActionResult Tv()
+        public IActionResult Tv1()
         {
             return View();
         }
-        public IActionResult WMachne()
+        public IActionResult Washing1()
         {
             return View();
         }
